@@ -1,0 +1,102 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161515; /* Same background as main.css */
+}
+
+/* Header styles */
+header {
+    background: #1a1919; /* Same header background as main.css */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+/* Projects container styles */
+.projects-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual project styles */
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+/* Project links */
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff; /* Same link color as main.css */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background: #0056b3; /* Same hover color as main.css */
+}
+
+/* General styles for the projects section */
+.projects {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333; /* Same text color as main.css */
+}
+
+.projects p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555; /* Same paragraph color as main.css */
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.projects ul li a {
+    text-decoration: none;
+    color: #007BFF; /* Same link color as main.css */
+    transition: color 0.3s ease;
+}
+
+.projects ul li a:hover {
+    color: #0056b3; /* Same hover color as main.css */
+}

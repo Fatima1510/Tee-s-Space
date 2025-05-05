@@ -1,0 +1,56 @@
+/* General styles for the contact section */
+.contact {
+    margin: 20px auto;
+    padding: 50px;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    color: #706e6e; /* Same text color as main.css */
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #555; /* Same paragraph color as main.css */
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #747171;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #007bff; /* Same button color as main.css */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3; /* Same hover color as main.css */
+}
